@@ -94,6 +94,11 @@ video {
     background-color: #26292B;
     border: solid;
     border-color: #262926;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 #navbar {
@@ -176,21 +181,22 @@ video {
     font-family: sans-serif;
 }
 
+
 /*Project section Boxes*/
 
-.column{
+.column {
     color: #5d5d5d;
     font: 16px "Source sans pro";
     padding: 50px 0px 0px 50px;
 }
 
-.box{
+.box {
     width: 350px;
     border: 4px solid rgb(66, 64, 64);
     background: #ffffff;
 }
 
-.box header{
+.box header {
     padding-top: 1em;
     margin: 0 0 2em 0;
 }
@@ -203,18 +209,18 @@ video {
     margin: -4.5em 0 4.25em -3.5em;
 }
 
-.box header h3{
+.box header h3 {
     padding-top: 1em;
-	margin: 0 0 2em 0;
+    margin: 0 0 2em 0;
 }
 
-.box p{
+.box p {
     color: #5d5d5d;
     font: 16px "source sans pro";
     margin: 0px 0px 32px;
 }
 
-.project{
+.project {
     position: relative;
     background: #f7f7f7;
     padding: 4em 0 4em 0;
@@ -223,16 +229,17 @@ video {
 
 /*img css*/
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
     max-height: 100%;
     display: inline-block;
 }
+
 
 /*media Query*/
 
 @media screen and (max-width: 1000px) {
     #projects {
-      background-color: beige;
+        background-color: beige;
     }
-  }
+}
